@@ -26,12 +26,6 @@ img {
 	display: block;
 }
 
-#hero {
-	background-image: url("../images/Snowman.png");
-	width: 100%;
-	display: block;
-}
-
 #gifts {
 	display: grid;
 	width: 100%;
@@ -53,6 +47,11 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 15px;
+}
+
+#item1 a {
+	color: #fff;
+	font-size: 1.6em;
 }
 
 #item1:hover {
@@ -80,7 +79,11 @@ img {
 	background-image: url("../images/chocolate-2862881_1920.png");
 	background-size: contain;
 	border-radius: 15px;
-	
+}
+
+#item3 a {
+	color: #000;
+	font-size: 1.6em;
 }
 
 #item3:hover {
@@ -96,7 +99,11 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 15px;
-	
+}
+
+#item4 a {
+	font-size: 1.6em;
+	color: #fff;
 }
 
 #item4:hover {
@@ -127,6 +134,11 @@ img {
 	
 }
 
+#item5 a {
+	font-size: 1.6em;
+	color: #fff;
+}
+
 #item5:hover {
 	box-shadow: 0 0 25px #9c9c9c;
 }
@@ -139,7 +151,11 @@ img {
 	background-size: contain;
 	background-position: center;
 	border-radius: 15px;
-	
+}
+
+#item6 a {
+	color: #fff;
+	font-size: 1.6em;
 }
 
 #item6:hover {
@@ -149,9 +165,18 @@ img {
 #item7 {
 	grid-area: it7;
 	min-height: 400px;
-	background: #a2a2a2;
+	background: rgba(0,0,0,0.8);
+	background-image: url("../images/headphones.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 	border-radius: 15px;
 	
+}
+
+#item7 a {	
+	color: #fff;
+	font-size: 1.6em;
 }
 
 #item7:hover {
@@ -161,9 +186,18 @@ img {
 #item8 {
 	grid-area: it8;
 	min-height: 400px;
-	background: #a2a2a2;
+	background: rgba(0,0,0,0.9);
+	background-image: url("../images/Wii Console.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 	border-radius: 15px;
 	
+}
+
+#item8 a {
+	color: #fff;
+	font-size: 1.6em;
 }
 
 #item8:hover {
